@@ -1,0 +1,138 @@
+
+.firstscreen {
+    display: flex;
+    align-items: center;
+    margin-top: 141px;
+    justify-content: center;
+  }
+  .h1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    left: 72px;
+    bottom: 59px
+
+;
+  }
+  .h1 h1{
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 89px;
+    /* or 106% */
+    
+    letter-spacing: -0.04em;
+    /* word-wrap: break-word;
+    white-space: normal; */
+    /* 1st */
+    
+    color: #181E4B;
+  }
+  .pp{
+   
+    /* word-wrap: break-word;
+    white-space: normal; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #DF6951;
+    
+  }
+  .p1{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+/* word-wrap: break-word;
+white-space: normal; */
+
+color: #5E6282;
+
+  }
+  .wave {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .demo{
+    z-index: 5;
+  }
+  .fom {
+    width: 170px;
+    height: 60px;
+  
+    /* yellow */
+  
+    background-color: #f1a501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+  }
+  .buttons p {
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 435px;
+    top: 711px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+  
+    /* text color */
+  
+    color: #686d77;
+  }
+  .buttons{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 71px;
+    z-index: 20;
+  }
+
+  .cco{
+    margin: 67px 0px;
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+
+  .buttons img{
+    height: 79px;
+  }
+
+
+  
+
+@media screen and (max-width:768px) {
+    .cco{
+      margin: 0px 10px;
+    }
+    .h1{
+        left: 10px;
+        top: 1px;
+    }
+    .buttons{
+       padding-left: 7px;
+       margin-top: 15px;
+    }
+  }

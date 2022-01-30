@@ -1,0 +1,50 @@
+.stepssec p{
+    
+    height: 21px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    color: #5E6282;
+}
+.stepssec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 10px;
+    padding: 5px 10px;
+position: relative;
+left: 55px;
+}
+.stepssec ul{
+    list-style: none;
+    position: relative;
+    right: 42px;
+}
+.stepssec h3{
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #14183E;
+}
+
+.stepssec li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cnt{
+    width: 75%;
+    margin-left: 26px;
+}
+
+
+@media screen and (max-width:768px) {
+
+.stepssec{
+    flex-direction: column;
+}
+}

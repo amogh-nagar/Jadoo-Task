@@ -1,0 +1,75 @@
+.info{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 124.5%;
+    /* or 16px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+.contact ul{
+    list-style: none;
+}
+.contact p{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 124.5%;
+/* or 26px */
+
+
+/* black */
+
+color: #080809;
+
+}
+
+.contact li{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+
+}
+
+.social{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 124.5%;
+/* identical to box height, or 25px */
+
+letter-spacing: 0.005em;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

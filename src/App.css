@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.wave {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.demo{
+  height: 50%;
+  width: 38%;
+}
