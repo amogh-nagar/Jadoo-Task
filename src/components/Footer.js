@@ -24,7 +24,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p>Company</p>
+          <p>Contact</p>
           <ul>
             <li>Help</li>
             <li>FAQs</li>
@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p>Company</p>
+          <p>More</p>
           <ul>
             <li>AirlineFees</li>
 

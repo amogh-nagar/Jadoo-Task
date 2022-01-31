@@ -70,7 +70,7 @@
     text-align: center;
     color: #5E6282;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:1040px) {
     .placecard{
         margin: 12px 38px;
         padding: 13px 5px;

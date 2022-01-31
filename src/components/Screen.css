@@ -152,7 +152,7 @@ white-space: normal; */
   color: white;
   text-decoration: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .cco {
     margin: 0px 10px;
   }
