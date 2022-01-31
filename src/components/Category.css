@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@300&family=Volkhov:ital@1&display=swap');
 .ctg{
     /* margin: 68px 0px; */
 }
@@ -35,11 +36,11 @@
     position: relative;
     left: 35px;
 }
-.ctg p{
+.ctg h6{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 25px;
     padding: 16px 4px;
     text-align: center;
     color: #5E6282;
@@ -60,7 +61,15 @@
     position: relative
         ;top: 56px
 }
-
+.placecard p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    color: #5E6282;
+}
 @media screen and (max-width:768px) {
     .placecard{
         margin: 12px 38px;
@@ -83,7 +92,7 @@
     .ctg h3{
         font-size: 30px;
     }
-    .ctg p{
+    .ctg h6{
         font-size: 11px;
         padding: 21px 4px;
     }

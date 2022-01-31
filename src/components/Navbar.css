@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Open+Sans:ital,wght@0,400;1,300&family=Volkhov:ital@1&display=swap');
 .navbar {
   width: 100vw;
   display: flex;
@@ -34,15 +35,15 @@
 }
 
 .navlinks li {
-  font-family: Google Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight:800;
   font-size: 17px;
   line-height: 22px;
   /* identical to box height */
   padding: 2px 33px;
   /* 1st */
-
+cursor: pointer;
   color: #212832;
 }
 

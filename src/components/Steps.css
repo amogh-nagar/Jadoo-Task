@@ -39,6 +39,7 @@ left: 55px;
     font-style: normal;
     font-weight: bold;
     font-size: 27px;
+    word-wrap: break-word;
     line-height: 24px;
     text-transform: capitalize;
     color: #14183E;
@@ -66,3 +67,4 @@ left: 55px;
     flex-direction: column;
 }
 }
+

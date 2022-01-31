@@ -12,6 +12,10 @@
 }
 .contact ul {
   list-style: none;
+  
+  position: relative;
+  right: 36px;
+
 }
 .contact p {
   font-family: Poppins;
@@ -57,7 +61,7 @@
   align-items: center;
   justify-content: center;
   letter-spacing: 0.005em;
-
+  padding: 26px 0px;
   /* TEXT CLR */
 
   color: #5e6282;

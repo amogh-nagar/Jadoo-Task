@@ -47,7 +47,7 @@ const Footer = () => {
           <img src={insta} alt="" />
         </div>
         <p>Discover</p>
-        <div>
+        <div className="store">
           <img src={ps} alt="" />
           <img src={as} alt="" />
         </div>

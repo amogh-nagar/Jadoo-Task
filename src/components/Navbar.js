@@ -28,9 +28,9 @@ const Navbar = () => {
         </ul>
 
         <div className="rnav">
-          {!display && <img src={arrow} onClick={toggle} alt="" />}{" "}
+          {display && <img src={arrow} onClick={toggle} alt="" />}{" "}
           {/* <AiOutlineMenuUnfold onClick={toggle} /> */}
-          {display && <img src={left} onClick={toggle} alt="" />}
+          {!display && <img src={left} onClick={toggle} alt="" />}
           {display && (
             <ul className="rnavlinks">
               <li>Destination</li>
