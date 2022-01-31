@@ -1,13 +1,13 @@
 .box {
-  width: 60%;
-  height: 262px;
-  background: #dfd7f9;
-  opacity: 1.2;
-  border-radius: 20px 129px 20px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+    width: 67%;
+    height: 264px;
+    background: #dfd7f9;
+    opacity: 1.2;
+    border-radius: 20px 129px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .box h2 {
   font-size: 18px;
@@ -26,8 +26,10 @@
 }
 .line button {
  
-  width: 112px;
-  height: 46px;
+  
+    width: 80px;
+    height: 41px;
+
   /* gradient */
 
   background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
@@ -46,14 +48,15 @@
   display: flex;
   justify-content: space-between;
   height: 63px;
-  width: 56%;
+  width: 42%;
   align-items: center;
 }
 
 .line input {
-    width: 50%;
+    width: 56%;
     outline: none;
     height: 40px;
+    padding: 0px 12px;
     border-radius: 10px;
 }
 
@@ -67,5 +70,9 @@
   .box h2{
     font-size: 13px;
     line-height: 15px;
+    width: 80%;
+  }
+  .line{
+      width: 70%;
   }
 }

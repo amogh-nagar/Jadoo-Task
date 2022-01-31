@@ -23,7 +23,7 @@
     font-size: 84px;
     line-height: 89px;
     /* or 106% */
-    
+    /* margin: 46px 0px; */
     letter-spacing: -0.04em;
     /* word-wrap: break-word;
     white-space: normal; */
@@ -32,17 +32,19 @@
     color: #181E4B;
   }
   .pp{
-   
+    margin: -30px 0px;
     /* word-wrap: break-word;
     white-space: normal; */
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height */
-    
-    text-transform: uppercase;
+   
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-transform: uppercase;
+
     
     color: #DF6951;
     
@@ -72,9 +74,10 @@ color: #5E6282;
   .fom {
     width: 170px;
     height: 60px;
-  
+    color: white;
     /* yellow */
-  
+  outline: none;
+  border: 0px solid transparent;
     background-color: #f1a501;
     box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
     border-radius: 10px;
@@ -130,6 +133,21 @@ color: #5E6282;
     .h1{
         left: 10px;
         top: 1px;
+    }
+    .firstscreen{
+      display: flex;
+      align-items: center;
+      margin-top: 168px;
+      justify-content: center;
+      margin-left: 47px;
+      margin-right: 47px;
+    }
+
+    .h1 h1{
+      width:400px;
+    }
+    .demo{
+      position: relative;     right: -5px;
     }
     .buttons{
        padding-left: 7px;

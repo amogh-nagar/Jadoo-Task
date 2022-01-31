@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,100&family=Volkhov:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Poppins:ital,wght@1,100;1,200&family=Volkhov:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Open+Sans:ital,wght@1,300&family=Volkhov:ital@1&display=swap');
 .App {
   text-align: center;
 }
@@ -46,3 +50,4 @@
   height: 50%;
   width: 38%;
 }
+

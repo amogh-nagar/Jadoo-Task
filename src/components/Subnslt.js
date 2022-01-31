@@ -13,8 +13,9 @@ const Subnslt = () => {
           about Cobham
         </h2>
         <div className="line">
-        <AiOutlineMail/>
-        <input type="text" placeholder="&#xf0e0; Username" />
+        <AiOutlineMail style={    {height: "39px",
+    width: "27px"}} />
+        <input type="text" placeholder="Your Name and Email"/>
           <button>Subscribe</button>
         </div>
       </div>

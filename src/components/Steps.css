@@ -1,10 +1,24 @@
-.stepssec p{
+.tt{
     
     height: 21px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     color: #5E6282;
+}
+.cnn{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 124.5%;
+/* or 20px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
 }
 .stepssec{
     display: flex;
@@ -32,8 +46,12 @@ left: 55px;
 
 .stepssec li{
     display: flex;
+    height: 122px;
     align-items: center;
     justify-content: flex-start;
+
+
+
 }
 
 .cnt{

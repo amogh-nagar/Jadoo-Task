@@ -3,6 +3,8 @@ import './Footer.css'
 import logo from "../assets/footer/logo.svg";
 import f from "../assets/footer/f.svg";
 import i from "../assets/footer/i.svg";
+import insta from "../assets/footer/instagram.png";
+import face from "../assets/footer/facebook.png";
 import ps from "../assets/footer/playstore.svg";
 import as from "../assets/footer/appstore.svg";
 const Footer = () => {
@@ -41,8 +43,8 @@ const Footer = () => {
       </div>
       <div className="social">
         <div className="row">
-          <img src={f} alt="" />
-          <img src={i} alt="" />
+          <img src={face} alt="" />
+          <img src={insta} alt="" />
         </div>
         <p>Discover</p>
         <div>

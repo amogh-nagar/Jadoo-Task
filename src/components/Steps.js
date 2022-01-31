@@ -14,8 +14,8 @@ const Steps = () => {
           <li>
             <img src={f} alt="" />
             <div className="cnt">
-              <p>Choose Destination</p>
-              <p>
+              <p className="tt">Choose Destination</p>
+              <p className="cnn">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.{" "}
               </p>
@@ -24,8 +24,8 @@ const Steps = () => {
           <li>
             <img src={s} alt="" />
             <div className="cnt">
-              <p>Make Payment</p>
-              <p>
+              <p className="tt">Make Payment</p>
+              <p className="cnn">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.{" "}
               </p>
@@ -34,8 +34,8 @@ const Steps = () => {
           <li>
             <img src={t} alt="" />
             <div className="cnt">
-              <p>Reach Airport on Selected Daten</p>
-              <p>
+              <p className="tt">Reach Airport on Selected Daten</p>
+              <p className="cnn">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.{" "}
               </p>

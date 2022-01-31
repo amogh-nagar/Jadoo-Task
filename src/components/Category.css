@@ -32,7 +32,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
+    left: 35px;
 }
 .ctg p{
     font-family: Poppins;
@@ -62,25 +63,29 @@
 
 @media screen and (max-width:768px) {
     .placecard{
-        margin: 2px 38px;
+        margin: 12px 38px;
+        padding: 13px 5px;
     }
     .ctg{
         position: relative;
         top: 30px;
+        right: 20px;
         /* margin: px 0px; */
     }
     .cards{
+        flex-direction: column;
+
     }
     .plane{
         position: relative;
     top: 0;
     }
     .ctg h3{
-        font-size: 10px;
+        font-size: 30px;
     }
     .ctg p{
-        font-size: 7px;
-padding: 5px 4px;
+        font-size: 11px;
+        padding: 21px 4px;
     }
     .cc{
         display: none;

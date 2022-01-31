@@ -12,6 +12,9 @@
   align-items: center;
   padding: -1px 10%;
 }
+.rnav{
+  display: none;
+}
 .list {
   display: flex;
     align-items: center;
@@ -67,6 +70,23 @@ background-color: transparent;
 
 @media screen and (max-width:768px) {
   .navlinks{
-    
+    display: none;
+  }
+  .rnav{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content:start ;
+  }
+  .rnavlinks{
+    list-style: none;
+    position: relative;
+    top: 55px;
+  }
+  .rnavlinks li{
+    margin: 5px 0px;
+  }
+  .rnav img{
+
   }
 }

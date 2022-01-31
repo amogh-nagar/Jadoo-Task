@@ -1,75 +1,116 @@
-.info{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 124.5%;
-    /* or 16px */
-    
-    
-    /* TEXT CLR */
-    
-    color: #5E6282;
+.info {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 124.5%;
+  /* or 16px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
 }
-.contact ul{
-    list-style: none;
+.contact ul {
+  list-style: none;
 }
-.contact p{
-    
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 21px;
-line-height: 124.5%;
-/* or 26px */
+.contact p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 124.5%;
+  /* or 26px */
 
+  /* black */
 
-/* black */
+  color: #080809;
+}
+.contact div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 30%;
+}
+.contact li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
 
-color: #080809;
+  /* TEXT CLR */
 
+  color: #5e6282;
 }
 
-.contact li{
-    font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 124.5%;
-/* or 22px */
+.social {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 124.5%;
+  /* identical to box height, or 25px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.005em;
 
+  /* TEXT CLR */
 
-/* TEXT CLR */
-
-color: #5E6282;
-
+  color: #5e6282;
 }
 
+.footer {
+  margin-top: 83px;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.contact {
+  width: 38%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 38%;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+    }
+    .info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact ul{
+        position: relative;
+    right: 36px;
+}
 .social{
-    
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 124.5%;
-/* identical to box height, or 25px */
-
-letter-spacing: 0.005em;
-
-/* TEXT CLR */
-
-color: #5E6282;
-}
-
-.footer{
-    display: flex;
     width: 100%;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-.contact{
-    display: flex;
+    height: 195px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
+    }
+
