@@ -81,7 +81,18 @@ background-color: transparent;
   }
   .rnavlinks{
     list-style: none;
-    position: relative;
+    position: absolute;
+    background-color: whitesmoke;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:300px;
+    left: 7rem;
+    text-align: center;
+    z-index: 100;
+    border-radius: 30%;
     top: 55px;
   }
   .rnavlinks li{

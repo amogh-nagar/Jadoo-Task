@@ -12,6 +12,7 @@ const Navbar = () => {
     setdisplay((prev) => !prev);
   };
   return (
+      <>
     <div className="navbar">
       <img src={img} className="img" alt="Logo" />
 
@@ -31,21 +32,23 @@ const Navbar = () => {
           {display && <img src={arrow} onClick={toggle} alt="" />}{" "}
           {/* <AiOutlineMenuUnfold onClick={toggle} /> */}
           {!display && <img src={left} onClick={toggle} alt="" />}
-          {display && (
-            <ul className="rnavlinks">
-              <li>Destination</li>
-              <li>Hotels</li>
-              <li>Flights</li>
-              <li className="login">Login</li>
-              <button className="signup">Signup</button>
-              <li>
-                EN <img src={down} />
-              </li>
-            </ul>
-          )}
+          
         </div>
       </div>
     </div>
+{display && (
+    <ul className="rnavlinks">
+      <li>Destination</li>
+      <li>Hotels</li>
+      <li>Flights</li>
+      <li className="login">Login</li>
+      <button className="signup">Signup</button>
+      <li>
+        EN <img src={down} />
+      </li>
+    </ul>
+  )}
+    </>
   );
 };
 
